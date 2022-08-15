@@ -1,3 +1,6 @@
+Firstly, we created a simpleNFT contract to get started and in this 
+we took file URI of the image directly from pinata 
+
 Demerits of SimpleNFT:
 
 1. We didn't upload our image to IPFS ourselves
