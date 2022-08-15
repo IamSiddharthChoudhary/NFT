@@ -4,6 +4,8 @@ from ..helpfulScripts import getShipType, uploadIPFS
 from pathlib import Path
 from metadata.sampleMetaData import metadata_template
 
+URIMapping = {"": ""}
+
 
 def main():
     advanced_collectible = AdvancedNFT[-1]
@@ -26,4 +28,9 @@ def main():
             NFTMetadata["image"] = imageURI
             with open(metadata_file, "w") as file:
                 json.dump(NFTMetadata, file)
-            uploadIPFS(metadata_file)
+            URI = uploadIPFS(metadata_file)
+            addToURIMapping(shipType, URI)
+
+
+def addToURIMapping(shipType, URI):
+    URIMapping[URI] = shipType
