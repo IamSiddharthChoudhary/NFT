@@ -1,0 +1,7 @@
+NFT - Non-Fungible Tokens (means it is not interchangable from any of its class)
+aka ERC 721 
+
+How to make an image NFT?
+1. Add your image to IPFS
+2. Add a metadata file pointing to that image on IPFS
+3. And grab that token URI to put it instead as an NFT
