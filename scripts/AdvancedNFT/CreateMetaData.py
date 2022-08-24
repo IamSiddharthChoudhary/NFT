@@ -33,4 +33,4 @@ def main():
 
 
 def addToURIMapping(shipType, URI):
-    URIMapping[URI] = shipType
+    URIMapping[shipType] = URI
