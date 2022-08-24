@@ -7,3 +7,7 @@ Demerits of SimpleNFT:
 2. Anyone can mint NFTs here as they are not verifiably random or scare
 
 To Overcome them we will created Advanced NFT contract in contracts folder.
+
+Advanced NFT:
+In this, the user will get a ramdom NFT among the three. 
+And this randomness is attained by
