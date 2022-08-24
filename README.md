@@ -1,3 +1,8 @@
+Advanced NFT:-
+In this, the user will get a ramdom NFT among the three (which are here the pics of ships). 
+And this randomness is attained by using VRF(Verifiable random function) of chainlink.
+
+Story:-
 Firstly, we created a simpleNFT contract to get started and in this 
 we took file URI of the image directly from pinata 
 
@@ -8,6 +13,4 @@ Demerits of SimpleNFT:
 
 To Overcome them we will created Advanced NFT contract in contracts folder.
 
-Advanced NFT:
-In this, the user will get a ramdom NFT among the three. 
-And this randomness is attained by
+
