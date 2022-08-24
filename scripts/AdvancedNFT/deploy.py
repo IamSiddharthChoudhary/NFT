@@ -1,6 +1,3 @@
-from ctypes import addressof
-from distutils.command.config import config
-from lib2to3.pgen2 import token
 from brownie import AdvancedNFT, network
 from scripts.helpfulScripts import getAccount, OPENSEA_URL, getContract, fund_with_link
 
