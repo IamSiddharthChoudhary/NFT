@@ -1,4 +1,3 @@
-from fileinput import filename
 from urllib import response
 from brownie import config, accounts, network, LinkToken, VRFCoordinatorMock, Contract
 from pathlib import Path
